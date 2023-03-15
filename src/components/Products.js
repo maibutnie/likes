@@ -4,7 +4,6 @@ import { loadCharacters, addToCart } from "../redux/action";
 import Product from "./Product";
 
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import HeartBrokenIcon from '@mui/icons-material/HeartBroken';
 
 
 const Products = () => {
@@ -40,7 +39,7 @@ const Products = () => {
         
         <div className='container mx-auto pb-24 p-5 md:p-0'>
             <h1 className='text-lg font-bold my-8'>Characters</h1>
-            <button className="flex py-2 px-5 items-center rounded-full text-sm font-bold bg-blue-700 text-white" onClick={() => {changeState()}}>LIkE</button>
+            <button className="flex py-2 px-5 items-center rounded-full text-sm font-bold bg-blue-700 text-white" onClick={() => {changeState()}}><FavoriteIcon /></button>
             {/* {(!button) ? (
                 filteredCharacters = cartCharacters
             ) : (
