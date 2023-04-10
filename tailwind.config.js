@@ -7,6 +7,11 @@ module.exports = {
     extend: {
       minHeight: {
         '100': '100vh',
+      },
+      colors: {
+        bgcolor: '#212121',
+        textcolor: '#ffffff',
+        extracolor: '#ff3608',
       }
     },
   },
